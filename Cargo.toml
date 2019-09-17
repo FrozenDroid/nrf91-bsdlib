@@ -1,0 +1,13 @@
+[package]
+name = "nrf91-bsdlib"
+version = "0.1.0"
+authors = ["Vincent Stakenburg <vincentstakenburg@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+tinyrlibc = "0.1.2"
+nrfxlib-sys = "0.1.6"
+cortex-m = "0.6.0"
+cortex-m-rt = "0.6.9"
+nrf52-hal-common = "0.8.1"
+nrf91 = { version = "0.1.0", features = ["rt"] }
